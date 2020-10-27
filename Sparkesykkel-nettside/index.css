@@ -1,0 +1,266 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #eee;
+    width: 100%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+    z-index: 1;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    padding-left: 1.5rem;
+    
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    transition: .3s ease;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+}
+
+.menu li a:hover{
+    color: white;
+    background-color: rgb(140, 140, 140);
+    transform: scale(1.2);
+}
+
+.menu li:last-child{
+    float: right;
+    margin-right: 2rem;
+}
+
+
+body {
+ background-color: #eee;
+}
+
+.slagord {
+    
+    font-family:'Teko', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #bbd3cb;
+    margin-top: 80px;
+    
+}
+
+
+#video {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem; 
+    margin-top: 30px;
+}
+
+
+video {
+    max-width: 100%; }
+    @media (max-width: 56.25em) {
+      video {
+        max-width: 100%; } }
+    @media (max-width: 37.5em) {
+      video {
+        max-width: 100%; } }
+
+      
+
+.informasjon {
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+  
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    color: #bbd3cb;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.tekst {
+    color: rgb(140, 140, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    color: rgb(140, 140, 140);
+    font-size: 1.4rem; 
+    text-align: center;
+}
+    
+#hover {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+    
+}
+
+#hover img {
+    position:absolute;
+    margin-top: 30px;
+    
+      left:0;
+      -webkit-transition: opacity 1s ease-in-out;
+      -moz-transition: opacity 1s ease-in-out;
+      -o-transition: opacity 1s ease-in-out;
+      transition: opacity 1s ease-in-out;
+}
+
+#hover img.top:hover {
+    opacity:0;
+  }
+
+  #engasjer {
+      margin-top: 70px;
+      
+  }
+  .engasjer {
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .h21 {
+    font-family: 'Teko', sans-serif;
+    color: #bbd3cb;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+  }
+
+  .tekst1 {
+    color: rgb(140, 140, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  button {
+	display: inline-block;
+	padding: 25px 45px;
+	margin-top: 1rem;
+	border-radius: 40px;
+	border: 2px solid #eee;
+	cursor: pointer;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #b1decf;
+    font-size: 1.5rem;
+    
+
+    } 
+
+button:hover {
+    color: white;
+    background: yellow;
+    border-color: yellow;
+    transition: all 0.5s ease 0s;
+}
+
+.nummer {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 300px;
+   
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+.avslutningsbilde::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+@media screen and (max-width: 500px) {
+    .nummer {
+      width: 100%;
+    }
+  }
+
+  .ossselvinfo{
+      margin-top: 70px;
+      margin-bottom: 40px;
+  }
+
+  .footer {
+      background-color: darkgray;
+      display: grid;
+      padding-bottom: 40px;
+     
+  }
+
+  .follow {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
+      font-size: 2rem;
+      text-align: center;
+      color: white;
+  }
+
+  .center-text {
+    text-align: center; }
+
+  .some__icon {
+    margin-top: 10rem;
+    padding-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.credits {
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
